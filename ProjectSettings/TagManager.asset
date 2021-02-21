@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FistDamage
+  - Enemy
+  - Damageable
+  - Victim
+  - Civilian
+  - Villain
   layers:
   - Default
   - TransparentFX
@@ -13,11 +19,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Destruction
+  - Damage
+  - Citizen
   - 
   - 
   - 

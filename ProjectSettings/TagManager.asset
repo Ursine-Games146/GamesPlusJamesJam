@@ -10,6 +10,7 @@ TagManager:
   - Victim
   - Civilian
   - Villain
+  - GameManager
   layers:
   - Default
   - TransparentFX

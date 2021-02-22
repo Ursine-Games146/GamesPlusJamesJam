@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{39A98611-219E-4CF3-A3F8-05B9EAC663C9}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{39A98611-219E-4CF3-A3F8-05B9EAC663C9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_MainMusic" ID="{4C76D084-D2D6-497D-8422-C0AB3A7E8C7E}">
+					<ChildrenList>
+						<Action Name="" ID="{F1F1E02A-2E10-4930-BFA8-21D33F73FAB7}" ShortID="724722119">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainTheme" ID="{E4562524-745F-4A81-A2C3-5CABC761B226}" WorkUnitID="{AC9FB595-B4DF-434C-8AA0-B609E672B1F1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MainMusic" ID="{CEB9D87C-7573-4B20-A8AD-3E19A2BDD311}">
+					<ChildrenList>
+						<Action Name="" ID="{0F2F6996-5A6B-4809-9168-E30F7F247555}" ShortID="369102047">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainTheme" ID="{E4562524-745F-4A81-A2C3-5CABC761B226}" WorkUnitID="{AC9FB595-B4DF-434C-8AA0-B609E672B1F1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All" ID="{CDA1F63E-2D9F-4ADE-9C7E-2E87098FA8FC}">
+					<ChildrenList>
+						<Action Name="" ID="{2038B120-A96E-4BA1-BAF3-7639FF15C241}" ShortID="202187655">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

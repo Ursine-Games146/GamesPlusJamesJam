@@ -20,16 +20,169 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2608842031">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="203282983">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2766718152">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2534390857" Name="Play_EnemyHit" ObjectPath="\Events\Default Work Unit\Play_EnemyHit" DurationType="OneShot" DurationMin="1.587034" DurationMax="2.244406">
+					<IncludedMemoryFiles>
+						<File Id="320184442" Language="SFX">
+							<ShortName>sfx_enemyhurt.wav</ShortName>
+							<Path>SFX\sfx_enemyhurt_E560BD38.wem</Path>
+						</File>
+						<File Id="560731248" Language="SFX">
+							<ShortName>sfx_enemyhurt.wav</ShortName>
+							<Path>SFX\sfx_enemyhurt_C3853A21.wem</Path>
+						</File>
+						<File Id="593292477" Language="SFX">
+							<ShortName>sfx_enemyhurt.wav</ShortName>
+							<Path>SFX\sfx_enemyhurt_42602F53.wem</Path>
+						</File>
+						<File Id="804290292" Language="SFX">
+							<ShortName>sfx_enemyhurt.wav</ShortName>
+							<Path>SFX\sfx_enemyhurt_F533FBD5.wem</Path>
+						</File>
+						<File Id="858315160" Language="SFX">
+							<ShortName>sfx_punch.wav</ShortName>
+							<Path>SFX\sfx_punch_3F75BDB9.wem</Path>
+						</File>
+						<File Id="867050802" Language="SFX">
+							<ShortName>sfx_enemyhurt.wav</ShortName>
+							<Path>SFX\sfx_enemyhurt_A40C942C.wem</Path>
+						</File>
+						<File Id="867818172" Language="SFX">
+							<ShortName>sfx_enemyhurt.wav</ShortName>
+							<Path>SFX\sfx_enemyhurt_30F7A04B.wem</Path>
+						</File>
+						<File Id="926432222" Language="SFX">
+							<ShortName>sfx_enemyhurt.wav</ShortName>
+							<Path>SFX\sfx_enemyhurt_1FD886D7.wem</Path>
+						</File>
+						<File Id="1032283500" Language="SFX">
+							<ShortName>sfx_enemyhurt.wav</ShortName>
+							<Path>SFX\sfx_enemyhurt_0F6FEE0B.wem</Path>
+						</File>
+						<File Id="1070081504" Language="SFX">
+							<ShortName>sfx_enemyhurt.wav</ShortName>
+							<Path>SFX\sfx_enemyhurt_1110D27B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" DurationType="OneShot" DurationMin="0.286210" DurationMax="0.717018">
+					<IncludedMemoryFiles>
+						<File Id="73033290" Language="SFX">
+							<ShortName>WHGA1 - Wood.wav</ShortName>
+							<Path>SFX\WHGA1 - Wood_02064F3C.wem</Path>
+						</File>
+						<File Id="83871833" Language="SFX">
+							<ShortName>WHGA1 - Wood.wav</ShortName>
+							<Path>SFX\WHGA1 - Wood_713ABC91.wem</Path>
+						</File>
+						<File Id="85624298" Language="SFX">
+							<ShortName>WHGA1 - Grass.wav</ShortName>
+							<Path>SFX\WHGA1 - Grass_E9BA46AA.wem</Path>
+						</File>
+						<File Id="137875215" Language="SFX">
+							<ShortName>WHGA1 - Wood.wav</ShortName>
+							<Path>SFX\WHGA1 - Wood_C7F51B50.wem</Path>
+						</File>
+						<File Id="323214161" Language="SFX">
+							<ShortName>WHGA1 - Dirt.wav</ShortName>
+							<Path>SFX\WHGA1 - Dirt_56FA75BA.wem</Path>
+						</File>
+						<File Id="410093314" Language="SFX">
+							<ShortName>WHGA1 - Wood.wav</ShortName>
+							<Path>SFX\WHGA1 - Wood_24EAB208.wem</Path>
+						</File>
+						<File Id="451523203" Language="SFX">
+							<ShortName>WHGA1 - Grass.wav</ShortName>
+							<Path>SFX\WHGA1 - Grass_6E3CCE81.wem</Path>
+						</File>
+						<File Id="540223600" Language="SFX">
+							<ShortName>WHGA1 - Dirt.wav</ShortName>
+							<Path>SFX\WHGA1 - Dirt_D8F92F92.wem</Path>
+						</File>
+						<File Id="549198030" Language="SFX">
+							<ShortName>WHGA1 - Grass.wav</ShortName>
+							<Path>SFX\WHGA1 - Grass_DF3CF429.wem</Path>
+						</File>
+						<File Id="551925295" Language="SFX">
+							<ShortName>WHGA1 - Dirt.wav</ShortName>
+							<Path>SFX\WHGA1 - Dirt_7CA65887.wem</Path>
+						</File>
+						<File Id="608707704" Language="SFX">
+							<ShortName>WHGA1 - Grass.wav</ShortName>
+							<Path>SFX\WHGA1 - Grass_12067AFC.wem</Path>
+						</File>
+						<File Id="648728224" Language="SFX">
+							<ShortName>WHGA1 - Dirt.wav</ShortName>
+							<Path>SFX\WHGA1 - Dirt_0916E8BA.wem</Path>
+						</File>
+						<File Id="676456232" Language="SFX">
+							<ShortName>WHGA1 - Grass.wav</ShortName>
+							<Path>SFX\WHGA1 - Grass_597A11A1.wem</Path>
+						</File>
+						<File Id="682329896" Language="SFX">
+							<ShortName>WHGA1 - Wood.wav</ShortName>
+							<Path>SFX\WHGA1 - Wood_D9674417.wem</Path>
+						</File>
+						<File Id="735779284" Language="SFX">
+							<ShortName>WHGA1 - Wood.wav</ShortName>
+							<Path>SFX\WHGA1 - Wood_EC513F3C.wem</Path>
+						</File>
+						<File Id="741485676" Language="SFX">
+							<ShortName>WHGA1 - Grass.wav</ShortName>
+							<Path>SFX\WHGA1 - Grass_56FE75AE.wem</Path>
+						</File>
+						<File Id="899905023" Language="SFX">
+							<ShortName>WHGA1 - Dirt.wav</ShortName>
+							<Path>SFX\WHGA1 - Dirt_F232C6D3.wem</Path>
+						</File>
+						<File Id="918550042" Language="SFX">
+							<ShortName>WHGA1 - Dirt.wav</ShortName>
+							<Path>SFX\WHGA1 - Dirt_EAC35E01.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{A437F99D-E5E0-47FE-88F2-C39DB608A968}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{A2F07C52-5109-491B-AA51-D4C1C11C4E99}">
+							<Media>
+								<File Id="73033290"/>
+								<File Id="83871833"/>
+								<File Id="137875215"/>
+								<File Id="410093314"/>
+								<File Id="682329896"/>
+								<File Id="735779284"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{64ADC2CF-CDEE-4297-8888-9F1BCD6FFC07}">
+							<Media>
+								<File Id="85624298"/>
+								<File Id="451523203"/>
+								<File Id="549198030"/>
+								<File Id="608707704"/>
+								<File Id="676456232"/>
+								<File Id="741485676"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A437F99D-E5E0-47FE-88F2-C39DB608A968}">
+							<Media>
+								<File Id="323214161"/>
+								<File Id="540223600"/>
+								<File Id="551925295"/>
+								<File Id="648728224"/>
+								<File Id="899905023"/>
+								<File Id="918550042"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1346240278" Name="Play_MainMusic" ObjectPath="\Events\Default Work Unit\Play_MainMusic" DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="62643639" Language="SFX">
@@ -45,6 +198,16 @@
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="665673276" Name="Stop_MainMusic" ObjectPath="\Events\Default Work Unit\Stop_MainMusic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="3744172054" Name="LandType" ObjectPath="\States\Default Work Unit\LandType">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\LandType\None"/>
+						<State Id="4248645337" Name="Grass" ObjectPath="\States\Default Work Unit\LandType\Grass"/>
+						<State Id="2195636714" Name="Dirt" ObjectPath="\States\Default Work Unit\LandType\Dirt"/>
+						<State Id="2058049674" Name="Wood" ObjectPath="\States\Default Work Unit\LandType\Wood"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

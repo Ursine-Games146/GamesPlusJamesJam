@@ -20,7 +20,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 4cc046eb0ebaea4296f459590f9c54a4
     GuidInternal: 
-    m_lastTime: -8585875750993782487
+    m_lastTime: -8585874945817806124
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +30,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: f85f7d80ec3b114bb4ba380c2e934996
     GuidInternal: 
-    m_lastTime: -8585875750995206268
+    m_lastTime: -8585874945819442090
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8de9800e06c9e64caa082f837a200fdd
     GuidInternal: 
-    m_lastTime: -8585875737829857757
+    m_lastTime: -8585874931338211993
     List:
     - name: Main
       guid: 457fc37f2563a64fa51facc5a5036bd4
@@ -68,8 +68,32 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 1186a9399e21f34ca3f805b9eac663c9
     GuidInternal: 
-    m_lastTime: -8585875738002245962
+    m_lastTime: -8585874931505403617
     List:
+    - name: Play_EnemyHit
+      guid: a97a53d14eef1f4cb35252506ba36adf
+      id: 2534390857
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_EnemyHit
+        ObjectType: 3
+      Path: Default Work Unit\Play_EnemyHit
+      maxAttenuation: 0
+      maxDuration: 2.244406
+      minDuration: 1.587034
+    - name: Play_Footsteps
+      guid: 61ecad9c5c13da4c86f178e449ac837e
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.717018
+      minDuration: 0.28621
     - name: Play_MainMusic
       guid: 84d0764cd6d27d498422c0ab3a7e8c7e
       id: 1346240278
@@ -114,7 +138,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 5e5080b5b6369a4da24a579160aa9656
     GuidInternal: 
-    m_lastTime: -8585875750995065885
+    m_lastTime: -8585874945819592484
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -124,8 +148,45 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: ba8851efd8207a4ca8efd378f39f6943
     GuidInternal: 
-    m_lastTime: -8585875750994930519
-    List: []
+    m_lastTime: -8585874936075500907
+    List:
+    - name: LandType
+      guid: fb2a31d09a9eda459f00c6f04137bb10
+      id: 3744172054
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LandType
+        ObjectType: 9
+      Path: Default Work Unit\LandType
+      values:
+      - name: Dirt
+        guid: 9df937a4e0e5fe4788f2c39db608a968
+        id: 2195636714
+        PathAndIcons:
+        - ElementName: Dirt
+          ObjectType: 8
+      - name: Grass
+        guid: cfc2ad64eecd974288889f1bcd6ffc07
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Grass
+          ObjectType: 8
+      - name: None
+        guid: e767aa1fe2b06545aa7359aad2733e71
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Wood
+        guid: 527cf0a209511b49aa51d4c1c11c4e99
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Wood
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -134,7 +195,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: be40589391ccb943a464dac1a36142a8
     GuidInternal: 
-    m_lastTime: -8585875750995010740
+    m_lastTime: -8585874945817816144
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -144,7 +205,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: be26eac93335db48b9b2bbca5a4e9adf
     GuidInternal: 
-    m_lastTime: -8585875750994644761
+    m_lastTime: -8585874945817811132
     List: []
   ExpandedItems: []
   autoPopulateEnabled: 1

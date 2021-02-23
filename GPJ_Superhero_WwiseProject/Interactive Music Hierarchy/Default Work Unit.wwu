@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC9FB595-B4DF-434C-8AA0-B609E672B1F1}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{AC9FB595-B4DF-434C-8AA0-B609E672B1F1}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="MainTheme" ID="{E4562524-745F-4A81-A2C3-5CABC761B226}" ShortID="566650370">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5940C5-0C6C-4EE3-B811-FFECAED9DCC4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{807D5FF8-3BEC-4B11-B4BA-380C2E934996}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Main" ID="{61FA2CE0-C18C-45C0-B393-A7E244B19863}" ShortID="44657182">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="52424.0208333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB5940C5-0C6C-4EE3-B811-FFECAED9DCC4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{807D5FF8-3BEC-4B11-B4BA-380C2E934996}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="main_120bpm_4-4_26b_L" ID="{EBAEB31B-A88D-45CA-9F15-1074B7E471C8}" ShortID="637341240">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{807D5FF8-3BEC-4B11-B4BA-380C2E934996}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="main_120bpm_4-4_26b_L" ID="{435A1429-EB36-4EE3-8EE4-F336E03E71F0}">
+											<Language>SFX</Language>
+											<AudioFile>main_120bpm_4-4_26b.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="62643639"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{DAA37A65-2855-4F84-9E50-F6DE96B65897}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-100"/>
+												<Property Name="PanY" Type="Real64" Value="-1.43620340206829E-15"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C3A5B312-158A-424F-A1E5-6C059953EA73}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{FC3DC996-A237-4C25-B2DB-46CB002A95D2}">
+											<ClipList>
+												<MusicClip Name="main_120bpm_4-4_26b_L" ID="{ED837DCF-B38A-4E70-B56F-23C306A3BF63}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="52424.0208333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="main_120bpm_4-4_26b_L" ID="{435A1429-EB36-4EE3-8EE4-F336E03E71F0}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="main_120bpm_4-4_26b_R" ID="{BD87930D-75CD-4A02-86DC-4A2C2D8AC8DB}" ShortID="402128938">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{807D5FF8-3BEC-4B11-B4BA-380C2E934996}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="main_120bpm_4-4_26b_R" ID="{614CE4FE-D86A-4880-A55F-1F1737EA8C97}">
+											<Language>SFX</Language>
+											<AudioFile>main_120bpm_4-4_26b.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1027608176"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{C4B77611-001F-49D2-82EC-EEBA00807D3D}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="100"/>
+												<Property Name="PanY" Type="Real64" Value="9.99200722162641E-16"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{AAE63ECB-F006-4583-8839-7D66935783A3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E412D3A3-7727-4047-8777-D721D4104552}">
+											<ClipList>
+												<MusicClip Name="main_120bpm_4-4_26b_R" ID="{CE3F998C-5190-4C2E-A913-BD3B6CD95B80}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="52424.0208333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="main_120bpm_4-4_26b_R" ID="{614CE4FE-D86A-4880-A55F-1F1737EA8C97}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{AD1742E5-19EF-4CE8-9281-26ADA8BB24CB}"/>
+								<MusicCue Name="Exit Cue" ID="{D42BB494-B6E9-4C85-952D-BAF7EC6F5DA7}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="50000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{E395D551-4CCD-4FA0-9FA7-AC7E744B4EB1}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{8887327B-AA7F-4449-80C8-57539C978A64}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{B2C45D31-56B4-4EA0-8282-409CE518589A}" ShortID="930058264">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{DCDCDD00-ECE1-4B2D-ACFB-B444C82EE985}" ShortID="899020242">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Main" ID="{61FA2CE0-C18C-45C0-B393-A7E244B19863}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

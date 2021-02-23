@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	665673276	Stop_MainMusic			\Default Work Unit\Stop_MainMusic	
+	1346240278	Play_MainMusic			\Default Work Unit\Play_MainMusic	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	62643639	main_120bpm_4-4_26b_L	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Windows\SFX\main_120bpm_4-4_26b.L_9EDFC787.wem	62643639.wem	\Interactive Music Hierarchy\Default Work Unit\MainTheme\Main\main_120bpm_4-4_26b_L	
+	1027608176	main_120bpm_4-4_26b_R	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Windows\SFX\main_120bpm_4-4_26b.R_9EDFC787.wem	1027608176.wem	\Interactive Music Hierarchy\Default Work Unit\MainTheme\Main\main_120bpm_4-4_26b_R	
+

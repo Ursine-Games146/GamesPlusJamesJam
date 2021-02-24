@@ -16,7 +16,7 @@ public class PlayerCombat : MonoBehaviour
     
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.G))
+        if(Input.GetMouseButtonDown(0))
         {
             anim.SetTrigger("punch");
         }

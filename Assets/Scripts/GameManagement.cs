@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManagement : MonoBehaviour
 {
-    public float punchForce;
+    public float punchBackForce;
     public float enemyHP;
     public float citizenHP;
 }

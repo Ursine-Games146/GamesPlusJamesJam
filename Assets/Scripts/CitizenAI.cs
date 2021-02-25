@@ -31,7 +31,7 @@ public class CitizenAI : MonoBehaviour
         {
             anim.SetBool("Help", true);
         }
-        else
+        else if(enemyCount > 0)
         {
             anim.SetBool("Help", false);
         }

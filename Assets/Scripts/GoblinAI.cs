@@ -12,6 +12,7 @@ public class GoblinAI : MonoBehaviour
     private GameObject Player;
     private Transform target;
     private bool attack = false;
+    public bool dead = false;
     public float lookRadius = 10f;
     private float attackDelay, lastAttack;
     GameManagement Manager;
@@ -42,11 +43,11 @@ public class GoblinAI : MonoBehaviour
 
         float distance = Vector3.Distance(target.position, transform.position);
 
-        if(agent.isStopped == true)
+        if(agent.isStopped == true || dead == true)
         {
             return;
         }
-        else
+        else if(!dead && agent.isStopped == false)
         {
             if (distance <= lookRadius)
             {
@@ -73,17 +74,22 @@ public class GoblinAI : MonoBehaviour
 
             }
 
-            if (attack && lastAttack <= 0f)
+            if (!attack)
             {
-                lastAttack -= Time.time;
-                StartCoroutine(AttackPlayer());
-            }
-            else if (!attack)
-            {
-                StopAllCoroutines();
+                StopCoroutine(AttackPlayer());
             }
         }
 
+        
+    }
+
+    private void LateUpdate()
+    {
+        if (attack && lastAttack <= 0f)
+        {
+            lastAttack -= Time.time;
+            StartCoroutine(AttackPlayer());
+        }
         
     }
 
@@ -96,25 +102,24 @@ public class GoblinAI : MonoBehaviour
 
     IEnumerator AttackPlayer()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         anim.SetTrigger("attack");
+        yield return new WaitForSeconds(2);
+        StopCoroutine(AttackPlayer());
     }
 
     private void OnCollisionEnter(Collision other)
     {
         if(other.collider.CompareTag("FistDamage"))
         {
+            dead = true;
             agent.isStopped = true;
-            anim.enabled = false;
-            foreach(Collider collider in ragdoll)
-            {
-                collider.enabled = true;
-            }
-            ragdoll[0].enabled = false;
-            rb.AddExplosionForce(Manager.punchBackForce, transform.position + (Vector3.forward / 2), 1, 0, ForceMode.Impulse);
-            Destroy(this.gameObject, 5);
+            StopCoroutine(AttackPlayer());
+            anim.SetTrigger("Die");
+            Destroy(gameObject, 5);
         }
     }
+
     
 
     /*private void OnTriggerEnter(Collider other)

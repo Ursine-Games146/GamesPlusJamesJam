@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using SensorToolkit;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class PlayerCombat : MonoBehaviour
 {
     Animator anim;
     public GameObject Fist;
+    
 
     void Start()
     {
@@ -16,7 +19,12 @@ public class PlayerCombat : MonoBehaviour
     
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+
+        if (Input.GetMouseButtonDown(0))
         {
             anim.SetTrigger("punch");
         }

@@ -31,6 +31,10 @@ public class CitizenAI : MonoBehaviour
         {
             anim.SetBool("Help", true);
         }
+        else
+        {
+            anim.SetBool("Help", false);
+        }
     }
 
 }

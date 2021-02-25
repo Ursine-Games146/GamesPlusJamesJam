@@ -16,7 +16,7 @@ public class GameManagement : MonoBehaviour
 
     private void Update()
     {
-        P = Random.Range(-3, 3);
+        P = Random.Range(-5.0f, 5.0f);
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {

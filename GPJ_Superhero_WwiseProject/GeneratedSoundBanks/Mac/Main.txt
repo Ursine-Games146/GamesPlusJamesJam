@@ -2,6 +2,47 @@ Event	ID	Name			Wwise Object Path	Notes
 	452547817	Stop_All			\Default Work Unit\Stop_All	
 	665673276	Stop_MainMusic			\Default Work Unit\Stop_MainMusic	
 	1346240278	Play_MainMusic			\Default Work Unit\Play_MainMusic	
+	2534390857	Play_EnemyHit			\Default Work Unit\Play_EnemyHit	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3744172054	LandType			\Default Work Unit\LandType	
+
+State	ID	Name	State Group			Notes
+	748895195	None	LandType			
+	2058049674	Wood	LandType			
+	2195636714	Dirt	LandType			
+	4248645337	Grass	LandType			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	73033290	wood_03	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Wood_02064F3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\wood_03		3997
+	83871833	wood_01	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Wood_713ABC91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\wood_01		3212
+	85624298	grass_06	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Grass_E9BA46AA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\grass_06		8174
+	137875215	wood_06	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Wood_C7F51B50.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\wood_06		5048
+	320184442	sfx_enemyhurt_04	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\sfx_enemyhurt_E560BD38.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Grunt\sfx_enemyhurt_04		7275
+	323214161	dirt_03	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Dirt_56FA75BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\dirt_03		4503
+	410093314	wood_05	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Wood_24EAB208.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\wood_05		4855
+	451523203	grass_04	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Grass_6E3CCE81.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\grass_04		5935
+	540223600	dirt_04	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Dirt_D8F92F92.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\dirt_04		7640
+	549198030	grass_05	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Grass_DF3CF429.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\grass_05		9431
+	551925295	dirt_06	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Dirt_7CA65887.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\dirt_06		7809
+	560731248	sfx_enemyhurt_03	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\sfx_enemyhurt_C3853A21.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Grunt\sfx_enemyhurt_03		7015
+	593292477	sfx_enemyhurt_01	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\sfx_enemyhurt_42602F53.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Grunt\sfx_enemyhurt_01		8254
+	608707704	grass_02	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Grass_12067AFC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\grass_02		5810
+	648728224	dirt_02	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Dirt_0916E8BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\dirt_02		5028
+	676456232	grass_01	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Grass_597A11A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\grass_01		4454
+	682329896	wood_04	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Wood_D9674417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\wood_04		3149
+	735779284	wood_02	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Wood_EC513F3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\wood_02		3953
+	741485676	grass_03	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Grass_56FE75AE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\grass_03		8728
+	804290292	sfx_enemyhurt_09	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\sfx_enemyhurt_F533FBD5.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Grunt\sfx_enemyhurt_09		8856
+	858315160	Punch	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\sfx_punch_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Punch		14030
+	867050802	sfx_enemyhurt_08	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\sfx_enemyhurt_A40C942C.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Grunt\sfx_enemyhurt_08		9714
+	867818172	sfx_enemyhurt_06	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\sfx_enemyhurt_30F7A04B.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Grunt\sfx_enemyhurt_06		9513
+	899905023	dirt_05	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Dirt_F232C6D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\dirt_05		5216
+	918550042	dirt_01	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\WHGA1 - Dirt_EAC35E01.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\dirt_01		5399
+	926432222	sfx_enemyhurt_02	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\sfx_enemyhurt_1FD886D7.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Grunt\sfx_enemyhurt_02		8918
+	1032283500	sfx_enemyhurt_05	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\sfx_enemyhurt_0F6FEE0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Grunt\sfx_enemyhurt_05		9064
+	1070081504	sfx_enemyhurt_07	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\sfx_enemyhurt_1110D27B.wem		\Actor-Mixer Hierarchy\Default Work Unit\EnemyHit\Grunt\sfx_enemyhurt_07		8622
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	62643639	main_120bpm_4-4_26b_L	C:\Users\Jake\Documents\Unity\GPJ_Superhero\GPJ_Superhero_WwiseProject\.cache\Mac\SFX\main_120bpm_4-4_26b.L_9EDFC787.wem	62643639.wem	\Interactive Music Hierarchy\Default Work Unit\MainTheme\Main\main_120bpm_4-4_26b_L	

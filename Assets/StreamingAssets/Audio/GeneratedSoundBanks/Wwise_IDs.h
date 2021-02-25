@@ -13,10 +13,29 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ENEMYHIT = 2534390857U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_MAINMUSIC = 1346240278U;
         static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID STOP_MAINMUSIC = 665673276U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace LANDTYPE
+        {
+            static const AkUniqueID GROUP = 3744172054U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace STATE
+        } // namespace LANDTYPE
+
+    } // namespace STATES
 
     namespace BANKS
     {

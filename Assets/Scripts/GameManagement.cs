@@ -44,9 +44,10 @@ public class GameManagement : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    public void Credits()
+    public void Restart()
     {
-        Debug.Log("Credits");
+        Time.timeScale = 1;
+        bl_SceneLoaderUtils.GetLoader.LoadLevel("Test");
     }
 
     public void QuitGame()

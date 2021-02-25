@@ -146,6 +146,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585875673456049124
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /GPJ_Superhero_WwiseProject
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

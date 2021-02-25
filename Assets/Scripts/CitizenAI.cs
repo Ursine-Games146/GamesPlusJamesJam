@@ -31,11 +31,28 @@ public class CitizenAI : MonoBehaviour
         {
             anim.SetBool("Help", true);
         }
-        else if(enemyCount > 0)
+
+        if(enemyCount > 0)
         {
             anim.SetBool("Help", false);
         }
     }
 
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            helpBox.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            helpBox.SetActive(false);
+        }
+    }
 }
     

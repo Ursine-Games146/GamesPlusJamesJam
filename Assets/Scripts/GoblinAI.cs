@@ -116,7 +116,7 @@ public class GoblinAI : MonoBehaviour
             agent.isStopped = true;
             StopCoroutine(AttackPlayer());
             anim.SetTrigger("Die");
-            
+            Destroy(gameObject, 6);
         }
     }
 

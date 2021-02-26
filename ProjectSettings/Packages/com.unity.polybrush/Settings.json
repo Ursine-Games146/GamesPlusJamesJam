@@ -49,6 +49,21 @@
                 "value": "{\"m_Value\":true}"
             },
             {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "Scattering.UsePivotForPlacement",
+                "value": "{\"m_Value\":false}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "Scattering.ParentObjectsWithSurface",
+                "value": "{\"m_Value\":true}"
+            },
+            {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "Scattering.AvoidOverlappingObjects",
+                "value": "{\"m_Value\":true}"
+            },
+            {
                 "type": "UnityEngine.Polybrush.BrushMirror, Unity.Polybrush, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "Brush.MirrorAxis",
                 "value": "{\"m_Value\":0}"
@@ -87,6 +102,16 @@
                 "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "GI.WorkflowMode",
                 "value": "{\"m_Value\":1}"
+            },
+            {
+                "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "ScatteringEditor.PreviewThumSize",
+                "value": "{\"m_Value\":60}"
+            },
+            {
+                "type": "UnityEditor.Polybrush.PrefabLoadout, Unity.Polybrush.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "key": "ScatteringEditor.userLoadout",
+                "value": "{\"m_Value\":{\"infos\":[{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":128460,\"guid\":\"852cb8c41e01737438082cc349cdd49d\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":154506,\"guid\":\"9ff3394075308d5459705bc7ba6f9f05\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":135544,\"guid\":\"238b71ad9f49264488e0af380e7eca8b\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":189252,\"guid\":\"cc957b04a70bdf04187142ab9d8a7f33\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":155842,\"guid\":\"af33bf1514ece2845845fbb68d1ca5ff\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":169834,\"guid\":\"a046bf9b8d2845a4baa366e3c7298672\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":173864,\"guid\":\"55be384447729584fb1682d6f37d13c9\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":198238,\"guid\":\"8069d1c9cfba1f04baa82e7a7731dc34\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":168546,\"guid\":\"2431a4a8e788b5a4b9c4c8c328c591e8\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":121968,\"guid\":\"d8872c49865f9ff438a8e749f1ae5106\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":117730,\"guid\":\"1b6a13782362e424789e998f70e56462\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":157292,\"guid\":\"9f4780088dd39f54cbe3baba5b4f0d13\",\"type\":3}},{\"palette\":{\"fileID\":11400000,\"guid\":\"817a2910ad38d794a9a0ea8e54753374\",\"type\":2},\"prefab\":{\"fileID\":153980,\"guid\":\"b39533d611995e941befdf9c70a3e666\",\"type\":3}}]}}"
             }
         ]
     }

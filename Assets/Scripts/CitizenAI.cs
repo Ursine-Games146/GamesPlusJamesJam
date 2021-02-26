@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class CitizenAI : MonoBehaviour
 {
 
+    public GameManagement manager;
     Animator anim;
     public bool needsHelp;
     public bool isHappy, isUnhappy;
@@ -25,7 +26,7 @@ public class CitizenAI : MonoBehaviour
 
     void Update()
     {
-        enemyCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        enemyCount = manager.enemyCount;
 
         if (enemyCount == 0)
         {

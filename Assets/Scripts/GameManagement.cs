@@ -8,6 +8,7 @@ public class GameManagement : MonoBehaviour
     public float enemyHP;
     public float citizenHP;
     private float P;
+    public int enemyCount;
     public Transform spawn;
     public GameObject goblinPF;
     public GameObject Menu;
@@ -16,7 +17,7 @@ public class GameManagement : MonoBehaviour
 
     private void Update()
     {
-        P = Random.Range(-5.0f, 5.0f);
+        P = Random.Range(-3.0f, 3.0f);
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -30,6 +31,7 @@ public class GameManagement : MonoBehaviour
     {
         Instantiate(goblinPF, new Vector3(spawn.position.x + P, spawn.position.y, spawn.position.z + P), Quaternion.identity);
         Instantiate(goblinPF, new Vector3(spawn.position.x - P, spawn.position.y, spawn.position.z - P), Quaternion.identity);
+        enemyCount += 2;
     }
 
     public void PauseGame()

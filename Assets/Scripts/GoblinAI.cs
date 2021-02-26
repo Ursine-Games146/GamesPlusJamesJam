@@ -112,6 +112,7 @@ public class GoblinAI : MonoBehaviour
     {
         if(other.collider.CompareTag("FistDamage"))
         {
+            AkSoundEngine.PostEvent("Play_EnemyHit", gameObject);
             dead = true;
             agent.isStopped = true;
             StopCoroutine(AttackPlayer());

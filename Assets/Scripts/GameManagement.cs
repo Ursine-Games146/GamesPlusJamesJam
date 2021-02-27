@@ -9,6 +9,7 @@ public class GameManagement : MonoBehaviour
     public float citizenHP;
     private float P;
     public int enemyCount;
+    public int enemyKilled;
     public Transform spawn;
     public GameObject goblinPF;
     public GameObject Menu;

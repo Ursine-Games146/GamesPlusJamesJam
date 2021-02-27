@@ -113,6 +113,7 @@ public class GoblinAI : MonoBehaviour
         if(other.collider.CompareTag("FistDamage"))
         {
             Manager.enemyCount --;
+            Manager.enemyKilled++;
             AkSoundEngine.PostEvent("Play_EnemyHit", gameObject);
             dead = true;
             agent.isStopped = true;

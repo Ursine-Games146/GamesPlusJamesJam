@@ -85,9 +85,8 @@ public class GoblinAI : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (attack && lastAttack <= 0f)
+        if (attack && !dead)
         {
-            lastAttack -= Time.time;
             StartCoroutine(AttackPlayer());
         }
         
@@ -102,10 +101,14 @@ public class GoblinAI : MonoBehaviour
 
     IEnumerator AttackPlayer()
     {
-        yield return new WaitForSeconds(5);
-        anim.SetTrigger("attack");
-        yield return new WaitForSeconds(2);
-        StopCoroutine(AttackPlayer());
+        if(!dead)
+        {
+            yield return new WaitForSeconds(5);
+            anim.SetTrigger("attack");
+            yield return new WaitForSeconds(2);
+            StopCoroutine(AttackPlayer());
+        }
+        
     }
 
     private void OnCollisionEnter(Collision other)

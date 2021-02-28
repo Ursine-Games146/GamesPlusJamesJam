@@ -17,11 +17,11 @@ MonoBehaviour:
     - SceneName: Test
       SceneAsset: {fileID: 102900000, guid: 19256357135fe1842a252693ebda1060, type: 3}
       DisplayName: Village
-      Description: You are a Super Hero in a medieval village. Being the best warrior
-        due to your incredible strength and seeming invincibility the Village requires
-        your help!
+      Description: You are a Goblin Puncher in a medieval village. Being the Best
+        goblin puncher due to your incredible strength and seeming invincibility,
+        the Village requires your help! Punch all the Goblins!
       SkipType: 1
-      LoadingType: 1
+      LoadingType: 0
       FakeLoadingTime: 10
       Backgrounds: []
   TipList:

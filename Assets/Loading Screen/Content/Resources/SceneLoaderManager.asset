@@ -24,6 +24,14 @@ MonoBehaviour:
       LoadingType: 0
       FakeLoadingTime: 10
       Backgrounds: []
+    - SceneName: Title
+      SceneAsset: {fileID: 102900000, guid: af4550c0a57772044b59fb72b43312fd, type: 3}
+      DisplayName: Title
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
   TipList:
     array:
     - WASD to move
